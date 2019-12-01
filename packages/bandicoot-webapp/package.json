@@ -1,0 +1,47 @@
+{
+  "name": "bandicoot-webapp",
+  "version": "0.0.0-development",
+  "description": "bandicoot-webapp",
+  "main": "index.tsx",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.js",
+    "build": "webpack --env.production --config webpack.js",
+    "test": "jest --coverage src",
+    "test:watch": "jest src --watch",
+    "test:e2e": "testcafe chrome e2e/tests/**/*.test.ts",
+    "test:e2e:jenkins": "testcafe --app './scripts/serve-dist.sh' chrome:headless e2e/tests/**/*.test.ts"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/leaflet": "1.5.5",
+    "@types/react": "16.9.13",
+    "@types/react-dom": "16.9.4",
+    "autoprefixer": "9.7.2",
+    "awesome-typescript-loader": "5.2.1",
+    "clean-webpack-plugin": "3.0.0",
+    "css-loader": "3.2.0",
+    "file-loader": "5.0.2",
+    "generate-json-webpack-plugin": "0.3.1",
+    "git-revision-webpack-plugin": "3.0.4",
+    "html-webpack-plugin": "3.2.0",
+    "http-server": "0.11.1",
+    "jest-sonar-reporter": "2.0.0",
+    "json-loader": "0.5.7",
+    "postcss-loader": "3.0.0",
+    "source-map-loader": "0.2.4",
+    "style-loader": "1.0.0",
+    "testcafe": "1.7.0",
+    "typescript": "3.7.2",
+    "webpack": "4.41.2",
+    "webpack-cli": "3.3.10",
+    "webpack-dev-server": "3.9.0"
+  },
+  "dependencies": {
+    "@types/react-leaflet": "2.5.0",
+    "bandicoot-core": "0.0.0-development",
+    "leaflet": "1.6.0",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-leaflet": "2.6.0"
+  }
+}
