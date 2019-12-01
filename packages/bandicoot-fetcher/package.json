@@ -1,0 +1,23 @@
+{
+  "name": "bandicoot-fetcher",
+  "version": "0.0.0-development",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "dev": "tsc && npm start",
+    "start": "node ./src/main.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "4.17.2",
+    "typescript": "3.7.2"
+  },
+  "dependencies": {
+    "axios": "0.19.0",
+    "bandicoot-core": "0.0.0-development",
+    "bandicoot-persistence": "0.0.0-development",
+    "express": "4.17.1",
+    "iconv-lite": "0.5.0",
+    "moment": "2.24.0"
+  }
+}

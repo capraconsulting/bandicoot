@@ -1,0 +1,20 @@
+{
+  "name": "bandicoot-analysis",
+  "version": "0.0.0-development",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "license": "MIT",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "devDependencies": {
+    "typescript": "3.7.2"
+  },
+  "dependencies": {
+    "@types/geojson": "^7946.0.7",
+    "bandicoot-core": "0.0.0-development",
+    "bandicoot-persistence": "0.0.0-development",
+    "moment": "2.24.0"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "ValidUntilTime": "2019-11-29T10:45:35.632+01:00",
+  "ProgressBetweenStops": {
+    "LinkDistance": 265,
+    "Percentage": 47.92
+  },
+  "MonitoredVehicleJourney": {
+    "LineRef": {
+      "value": "RUT:Line:575"
+    },
+    "DirectionRef": {
+      "value": "2"
+    },
+    "FramedVehicleJourneyRef": {
+      "DataFrameRef": {
+        "value": "2019-11-29"
+      },
+      "DatedVehicleJourneyRef": "575:133:4-13305"
+    },
+    "JourneyPatternRef": {
+      "value": "Nesoddtangen->Torneveien"
+    },
+    "PublishedLineName": [
+      {
+        "value": "575"
+      }
+    ],
+    "OperatorRef": {
+      "value": "Nobina"
+    },
+    "OriginRef": {
+      "value": "NSR:Quay:10226"
+    },
+    "OriginName": [
+      {
+        "value": "Nesoddtangen"
+      }
+    ],
+    "DestinationRef": {
+      "value": "NSR:Quay:10357"
+    },
+    "DestinationName": [
+      {
+        "value": "Torneveien"
+      }
+    ],
+    "HeadwayService": false,
+    "OriginAimedDepartureTime": "2019-11-29T10:28:00+01:00",
+    "DestinationAimedArrivalTime": "2019-11-29T11:05:00+01:00",
+    "Monitored": false,
+    "MonitoringError": [
+      "SCHEDULE"
+    ],
+    "InCongestion": false,
+    "InPanic": false,
+    "DataSource": "RUT",
+    "VehicleLocation": {
+      "Longitude": 10.66615,
+      "Latitude": 59.860067,
+      "srsName": "real"
+    },
+    "Delay": "PT126S",
+    "BlockRef": {
+      "value": "Nobina:59027:081"
+    },
+    "VehicleRef": {
+      "value": "702056"
+    },
+    "PreviousCalls": {
+      "PreviousCall": [
+        {
+          "StopPointRef": {
+            "value": "NSR:Quay:10249"
+          },
+          "VisitNumber": 4,
+          "StopPointName": [
+            {
+              "value": "TangenÃ¥sen"
+            }
+          ]
+        }
+      ]
+    },
+    "MonitoredCall": {
+      "VehicleAtStop": false,
+      "DestinationDisplay": [
+        {
+          "value": "Fagerstrand"
+        }
+      ],
+      "StopPointRef": {
+        "value": "NSR:Quay:10252"
+      },
+      "VisitNumber": 5,
+      "StopPointName": [
+        {
+          "value": "Skogen"
+        }
+      ]
+    },
+    "OnwardCalls": {
+      "OnwardCall": [
+        {
+          "StopPointRef": {
+            "value": "NSR:Quay:10262"
+          },
+          "VisitNumber": 6,
+          "StopPointName": [
+            {
+              "value": "Flaskebekkrysset"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "RecordedAtTime": "2019-11-29T10:35:35.633+01:00",
+  "ItemIdentifier": "702056_A88D7C42-6B1A-4681-9F43-20992BC3007C_575:133:4-13305"
+}
