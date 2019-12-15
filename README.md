@@ -60,6 +60,9 @@ not explaining how to do this easily.
 
 https://enturas.atlassian.net/wiki/spaces/PUBLIC/pages/637370425/SIRI-VM
 
+The "Real-Time"-iness of this data source is not good enough
+to produce a real-time map.
+
 ## Similar services and inspiration
 
 - https://www.banenor.no/Jernbanen/togkart/
