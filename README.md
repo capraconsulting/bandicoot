@@ -8,6 +8,25 @@ This is early work in progress based on a Hackathon in November 2019.
 npm install
 npm run bootstrap
 npm run watch
+
+# Define a directory to store data. E.g:
+mkdir /tmp/bandicoot-data
+export STORAGE_DIR=/tmp/bandicoot-data
+
+# Run data fetcher.
+cd packages/bandicoot-fetcher
+STORAGE_DIR=/tmp/bandicoot-data npm start
+
+# Run backend-for-frontend.
+cd packages/bandicoot-bff
+npm start
+
+# Run webapp.
+cd packages/bandicoot-webapp
+npm start
+
+# Check the website!
+# http://localhost:3000/
 ```
 
 ## To do / ideas
