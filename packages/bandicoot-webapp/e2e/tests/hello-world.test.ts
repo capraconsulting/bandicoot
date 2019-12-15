@@ -1,21 +1,21 @@
-import { Selector } from 'testcafe';
+import { Selector } from "testcafe"
 
-fixture`Example app`.page('http://localhost:3000');
+fixture`Example app`.page("http://localhost:3000")
 
 class LandingPage {
-  public headline: Selector;
+  public headline: Selector
 
   public constructor() {
-    this.headline = Selector('h1');
+    this.headline = Selector("h1")
   }
 
-  public getHeadlineText = () => this.headline.textContent;
+  public getHeadlineText = () => this.headline.textContent
 }
 
-const landingPage = new LandingPage();
+const landingPage = new LandingPage()
 
-test('Check welcome message', async t => {
+test("Check welcome message", async t => {
   await t
     .expect(landingPage.getHeadlineText())
-    .match(new RegExp('some-app-some-version'));
-});
+    .match(new RegExp("some-app-some-version"))
+})

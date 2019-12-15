@@ -2,7 +2,7 @@
   "name": "bandicoot",
   "private": true,
   "scripts": {
-    "lint": "eslint . --ignore-path .gitignore --ext ts --ext js",
+    "lint": "eslint . --ext ts --ext js",
     "lint:fix": "npm run lint --fix",
     "bootstrap": "lerna bootstrap --hoist",
     "watch": "lerna run --parallel watch"

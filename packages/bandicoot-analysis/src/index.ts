@@ -18,7 +18,7 @@ function formatTime(value: string) {
 }
 
 async function getData() {
-  let data: VehicleActivityBoxed[] = []
+  const data: VehicleActivityBoxed[] = []
   await getAllPersistedVmPayload(storage, async item => {
     data.push(item)
   })
@@ -29,7 +29,7 @@ async function getData() {
 async function mainTimeFrequency() {
   const data = (await getData()).filter(not(isMissingLocation))
 
-  let colorvalues: string[] = []
+  const colorvalues: string[] = []
   const color2 = (value: string) => {
     let idx = colorvalues.indexOf(value)
     if (idx === -1) {

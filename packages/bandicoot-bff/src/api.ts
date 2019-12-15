@@ -59,9 +59,7 @@ async function handleRequest(
 
   emitter.on("data", handleData)
 
-  let cont = true
   response.on("close", () => {
-    cont = false
     emitter.removeListener("data", handleData)
     response.end()
   })

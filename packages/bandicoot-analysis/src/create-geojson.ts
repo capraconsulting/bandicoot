@@ -11,7 +11,7 @@ import { isMissingLocation, not } from "./util"
 const storage = new FileStorage(getStorageDirEnv())
 
 async function getData() {
-  let data: VehicleActivityBoxed[] = []
+  const data: VehicleActivityBoxed[] = []
   await getAllPersistedVmPayload(storage, async item => {
     data.push(item)
   })
