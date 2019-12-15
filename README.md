@@ -29,6 +29,12 @@ npm start
 # http://localhost:3000/
 ```
 
+![Screenshot of website](website.jpg)
+
+_The map currently only shows the last reported positions
+for individual vehicles, and markers move around on the map
+when we get updated positions._
+
 ## To do / ideas
 
 - Replace markers in map with better symbols
