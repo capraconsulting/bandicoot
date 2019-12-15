@@ -2,9 +2,11 @@
   "name": "bandicoot",
   "private": true,
   "scripts": {
+    "build": "lerna run build",
     "lint": "eslint . --ext ts --ext js",
     "lint:fix": "npm run lint --fix",
     "bootstrap": "lerna bootstrap --hoist",
+    "test:e2e:jenkins": "lerna run test:e2e:jenkins",
     "watch": "lerna run --parallel watch"
   },
   "devDependencies": {
