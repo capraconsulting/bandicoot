@@ -14,7 +14,7 @@
     "@aws-cdk/assert": "1.18.0",
     "aws-cdk": "1.18.0",
     "aws-sdk": "2.561.0",
-    "typescript": "3.7.2"
+    "typescript": "3.7.3"
   },
   "dependencies": {
     "@aws-cdk/aws-cloudformation": "1.18.0",
