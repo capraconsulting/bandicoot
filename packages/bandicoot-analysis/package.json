@@ -9,7 +9,7 @@
   "main": "src/index.js",
   "types": "src/index.d.ts",
   "devDependencies": {
-    "typescript": "3.7.4"
+    "typescript": "3.7.5"
   },
   "dependencies": {
     "@types/geojson": "^7946.0.7",
