@@ -18,7 +18,7 @@
     "bandicoot-core": "0.0.0-development",
     "eventsource": "1.0.7",
     "express": "4.17.1",
-    "iconv-lite": "0.5.0",
+    "iconv-lite": "0.5.1",
     "moment": "2.24.0"
   }
 }
