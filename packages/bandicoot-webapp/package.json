@@ -37,7 +37,7 @@
     "webpack-dev-server": "3.10.3"
   },
   "dependencies": {
-    "@types/react-leaflet": "2.5.0",
+    "@types/react-leaflet": "2.5.1",
     "bandicoot-core": "0.0.0-development",
     "leaflet": "1.6.0",
     "react": "16.13.0",
