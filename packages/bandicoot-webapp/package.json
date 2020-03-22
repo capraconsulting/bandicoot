@@ -40,8 +40,8 @@
     "@types/react-leaflet": "2.5.1",
     "bandicoot-core": "0.0.0-development",
     "leaflet": "1.6.0",
-    "react": "16.13.0",
-    "react-dom": "16.13.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
     "react-leaflet": "2.6.3"
   }
 }
